@@ -36,15 +36,39 @@ const Contact = () => {
 
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setFormData({ name: "", email: "", message: "" });
-      toast({
-        title: "Message Sent! ✨",
-        description: "Thanks, your message is on its way! I'll get back to you soon.",
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          access_key: "4bccb6f2-6c07-4066-9bcf-2b1376e01ced",
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          subject: `New message from ${formData.name} - Portfolio Contact`,
+        }),
       });
-    }, 1000);
+
+      if (response.ok) {
+        setFormData({ name: "", email: "", message: "" });
+        toast({
+          title: "Message Sent! ✨",
+          description: "Thanks, your message is on its way! I'll get back to you soon.",
+        });
+      } else {
+        throw new Error("Failed to send message");
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again or contact me directly.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
