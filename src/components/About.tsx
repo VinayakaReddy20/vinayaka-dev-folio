@@ -62,14 +62,14 @@ const About = () => {
             
             <div className="card-portfolio text-center animate-tilt">
               <div className="text-3xl font-bold text-gradient-secondary mb-2 font-poppins">
-                5+
+                7+
               </div>
               <p className="text-muted-foreground font-inter">Projects Built</p>
             </div>
             
             <div className="card-portfolio text-center animate-tilt">
               <div className="text-3xl font-bold text-gradient-primary mb-2 font-poppins">
-                3+
+                4+
               </div>
               <p className="text-muted-foreground font-inter">Technologies</p>
             </div>
