@@ -18,19 +18,36 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'poppins': ['Poppins', 'sans-serif'],
+				'outfit': ['Outfit', 'sans-serif'],
+				'inter': ['Inter', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				'royal-blue': {
+					DEFAULT: 'hsl(var(--royal-blue))',
+					light: 'hsl(var(--royal-blue-light))',
+					dark: 'hsl(var(--royal-blue-dark))',
+				},
+				'gold': {
+					DEFAULT: 'hsl(var(--gold))',
+					light: 'hsl(var(--gold-light))',
+					dark: 'hsl(var(--gold-dark))',
+				},
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))',
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))',
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
