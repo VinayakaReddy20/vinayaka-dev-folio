@@ -2,10 +2,10 @@ const About = () => {
   const highlights = [
     "Python",
     "Full-Stack",
-    "MySQL",
+    "Database - MySQL",
     "Automation",
-    "Clean UI/UX",
-    "Reliable Delivery"
+    "Clean UI/UX"
+    
   ];
 
   return (
