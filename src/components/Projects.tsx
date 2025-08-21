@@ -142,7 +142,7 @@ const Projects = () => {
             </p>
             <Button
               variant="hero"
-              onClick={() => window.open("https://github.com/VinayakaReddy20/Server-Configuration-Management", "_blank")}
+              onClick={() => window.open("https://github.com/VinayakaReddy20", "_blank")}
               className="gap-2"
             >
               <Github className="w-5 h-5" />
