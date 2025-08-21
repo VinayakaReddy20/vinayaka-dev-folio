@@ -37,7 +37,7 @@ const Footer = () => {
           <div className="flex items-center justify-center md:justify-end gap-4">
             {/* Social Links */}
             <a
-              href="https://linkedin.com/in/vinayaka-r-626707325"
+              href="https://www.linkedin.com/in/vinayaka-r-626707325/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 bg-accent rounded-lg hover:bg-primary hover:text-primary-foreground transition-smooth group"

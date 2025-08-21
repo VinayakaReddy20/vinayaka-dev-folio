@@ -69,7 +69,7 @@ const Hero = () => {
           {/* Social Links */}
           <div className="flex justify-center space-x-6">
             <a
-              href="https://linkedin.com/in/vinayaka-r-626707325"
+              href="https://www.linkedin.com/in/vinayaka-r-626707325/"
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-white/10 rounded-full hover:bg-white/20 transition-smooth group"

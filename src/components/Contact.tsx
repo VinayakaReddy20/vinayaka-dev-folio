@@ -96,7 +96,7 @@ const Contact = () => {
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/vinayaka-r-626707325",
+      href: "https://www.linkedin.com/in/vinayaka-r-626707325/",
       color: "hover:text-blue-600"
     },
     {
@@ -142,7 +142,7 @@ const Contact = () => {
                 </Button>
                 <Button
                   variant="outline"
-                  onClick={() => window.open("https://linkedin.com/in/vinayaka-r-626707325", "_blank")}
+                  onClick={() => window.open("https://www.linkedin.com/in/vinayaka-r-626707325/", "_blank")}
                   className="gap-2 bg-white/20 border-white/30 text-white hover:bg-white hover:text-foreground"
                 >
                   <Linkedin className="w-4 h-4" />
