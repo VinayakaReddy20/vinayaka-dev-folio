@@ -55,15 +55,7 @@ const Hero = () => {
               Let's Connect 
               <ArrowRight className="w-5 h-5" /> 
             </Button> 
-            <Button 
-              variant="outline" 
-              size="lg" 
-              onClick={() => window.open("/assets/VinayakaR11.pdf", "_blank")} 
-              className="gap-3 text-lg px-8 py-4 h-auto bg-white/10 border-white/30 text-white hover:bg-white hover:text-foreground" 
-            > 
-              <Download className="w-5 h-5" /> 
-              Download Resume 
-            </Button> 
+            
           </div> 
 
           {/* Social Links */} 
