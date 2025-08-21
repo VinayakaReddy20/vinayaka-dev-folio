@@ -109,7 +109,7 @@ const Projects = () => {
                   variant="outline"
                   size="sm"
                   className="flex-1 gap-2"
-                  onClick={() => window.open("https://github.com/VinayakaReddy20", "_blank")}
+                  onClick={() => window.open("https://github.com/VinayakaReddy20/Instant-Dress-Tracker", "_blank")}
                 >
                   <Github className="w-4 h-4" />
                   Code
@@ -142,7 +142,7 @@ const Projects = () => {
             </p>
             <Button
               variant="hero"
-              onClick={() => window.open("https://github.com/VinayakaReddy20", "_blank")}
+              onClick={() => window.open("https://github.com/VinayakaReddy20/Server-Configuration-Management", "_blank")}
               className="gap-2"
             >
               <Github className="w-5 h-5" />
