@@ -12,9 +12,9 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8 items-center">
           {/* Left - Branding */}
           <div className="text-center md:text-left">
-            <div className="font-bold text-2xl text-gradient-primary mb-2">VR</div>
+            <div className="font-bold text-2xl text-gradient-primary mb-2"></div>
             <p className="text-muted-foreground font-inter flex items-center justify-center md:justify-start gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> by Vinayaka Reddy
+              Made with <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> 
             </p>
           </div>
 
@@ -29,7 +29,7 @@ const Footer = () => {
               Download Resume
             </Button>
             <p className="text-sm text-muted-foreground font-inter">
-              © 2024 Vinayaka Reddy D. All rights reserved.
+              © 2025 Vinayaka Reddy D. All rights reserved.
             </p>
           </div>
 
