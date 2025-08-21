@@ -15,7 +15,8 @@ const Projects = () => {
         "Real-time Location Search",
         "Responsive Design",
         "Smooth Navigation"
-      ]
+      ],
+      github: "https://github.com/VinayakaReddy20/Instant-Dress-Tracker"
     },
     {
       title: "Server Configuration Management",
@@ -29,7 +30,8 @@ const Projects = () => {
         "User Management",
         "Security Hardening",
         "Backup & Monitoring"
-      ]
+      ],
+       github: "https://github.com/VinayakaReddy20/Server-Configuration-Management"
     }
   ];
 
