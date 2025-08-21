@@ -107,8 +107,8 @@ const Education = () => {
                           <div className="text-xs text-muted-foreground font-inter">Semester</div>
                         </div>
                         <div>
-                          <div className="text-lg font-bold text-gradient-secondary font-poppins">2024</div>
-                          <div className="text-xs text-muted-foreground font-inter">Expected</div>
+                          <div className="text-lg font-bold text-gradient-secondary font-poppins">2026</div>
+                          <div className="text-xs text-muted-foreground font-inter">Graduation</div>
                         </div>
                       </div>
                     </div>
