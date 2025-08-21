@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <div className="font-bold text-2xl text-gradient-primary mb-2"></div>
             <p className="text-muted-foreground font-inter flex items-center justify-center md:justify-start gap-1">
-              Made with <Heart className="w-4 h-4 text-red-500" fill="currentColor" /> 
+  
             </p>
           </div>
 
