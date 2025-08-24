@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="text-center space-y-4">
             <Button
               variant="outline"
-              onClick={() => window.open("/assets/VinayakaR11.pdf", "_blank")}
+              onClick={() => window.open("/assets/VinayakaReddy.pdf", "_blank")}
               className="gap-2 w-full sm:w-auto"
             >
               <Download className="w-4 h-4" />
