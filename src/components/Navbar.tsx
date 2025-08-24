@@ -65,7 +65,7 @@ const Navbar = () => {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => window.open("/assets/VinayakaR11.pdf", "_blank")}
+              onClick={() => window.open("/assets/VinayakaReddy.pdf", "_blank")}
               className="gap-2"
             >
               <Download className="w-4 h-4" />
@@ -115,7 +115,7 @@ const Navbar = () => {
                 <Button
                   variant="outline"
                   size="sm"
-                  onClick={() => window.open("/assets/VinayakaR11.pdf", "_blank")}
+                  onClick={() => window.open("/assets/VinayakaReddy.pdf", "_blank")}
                   className="w-full gap-2"
                 >
                   <Download className="w-4 h-4" />
