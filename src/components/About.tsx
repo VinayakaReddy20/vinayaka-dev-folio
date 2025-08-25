@@ -1,3 +1,5 @@
+import { useEffect, useRef, useState } from 'react';
+import profilePhoto from '../assets/vinay.jpg';
 const About = () => {
   const highlights = [
     "Python",
