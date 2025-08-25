@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import profilePhoto from '../assets/vinay.jpg';
+
 const About = () => {
   const highlights = [
     "Python",
@@ -7,7 +8,6 @@ const About = () => {
     "Database - MySQL",
     "Automation",
     "Clean UI/UX"
-    
   ];
 
   return (
@@ -53,34 +53,46 @@ const About = () => {
             </div>
           </div>
 
-          {/* Stats/Visual */}
-          <div className="grid grid-cols-2 gap-6 animate-fade-up">
-            <div className="card-portfolio text-center animate-tilt">
-              <div className="text-3xl font-bold text-gradient-primary mb-2 font-poppins">
-                2+
-              </div>
-              <p className="text-muted-foreground font-inter">Years Learning</p>
+          {/* Profile Photo + Stats */}
+          <div className="space-y-6 animate-fade-up">
+            {/* Profile Image */}
+            <div className="flex justify-center">
+              <img 
+                src={profilePhoto} 
+                alt="Vinayaka Reddy" 
+                className="w-48 h-48 rounded-full shadow-lg border-4 border-royal-blue object-cover"
+              />
             </div>
-            
-            <div className="card-portfolio text-center animate-tilt">
-              <div className="text-3xl font-bold text-gradient-secondary mb-2 font-poppins">
-                7+
+
+            {/* Stats */}
+            <div className="grid grid-cols-2 gap-6">
+              <div className="card-portfolio text-center animate-tilt">
+                <div className="text-3xl font-bold text-gradient-primary mb-2 font-poppins">
+                  2+
+                </div>
+                <p className="text-muted-foreground font-inter">Years Learning</p>
               </div>
-              <p className="text-muted-foreground font-inter">Projects Built</p>
-            </div>
-            
-            <div className="card-portfolio text-center animate-tilt">
-              <div className="text-3xl font-bold text-gradient-primary mb-2 font-poppins">
-                4+
+              
+              <div className="card-portfolio text-center animate-tilt">
+                <div className="text-3xl font-bold text-gradient-secondary mb-2 font-poppins">
+                  7+
+                </div>
+                <p className="text-muted-foreground font-inter">Projects Built</p>
               </div>
-              <p className="text-muted-foreground font-inter">Technologies</p>
-            </div>
-            
-            <div className="card-portfolio text-center animate-tilt">
-              <div className="text-3xl font-bold text-gradient-secondary mb-2 font-poppins">
-                100%
+              
+              <div className="card-portfolio text-center animate-tilt">
+                <div className="text-3xl font-bold text-gradient-primary mb-2 font-poppins">
+                  4+
+                </div>
+                <p className="text-muted-foreground font-inter">Technologies</p>
               </div>
-              <p className="text-muted-foreground font-inter">Dedication</p>
+              
+              <div className="card-portfolio text-center animate-tilt">
+                <div className="text-3xl font-bold text-gradient-secondary mb-2 font-poppins">
+                  100%
+                </div>
+                <p className="text-muted-foreground font-inter">Dedication</p>
+              </div>
             </div>
           </div>
         </div>
